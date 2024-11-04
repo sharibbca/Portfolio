@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sharib Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(3, 3, 35);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(2, 2, 44);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0px 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.04rem;
+            color: rgb(157, 157, 234);
+        }
+
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 60px 0px;
+            align-items: center;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+
+
+            font-size: 2rem;
+        }
+
+        .leftsection .buttons {
+            padding: 35px 0px;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            color: white;
+            border: 2px solid white;
+            background-color: rgb(26 22 88);
+            font-size: 12px;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+
+
+        .rightsection img {
+            width: 80%;
+
+            height: 50px 0px;
+        }
+
+        main hr {
+            border: 0px;
+            background-color: rgb(185, 118, 247);
+            height: 1.2px;
+            margin: 10px 84px;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        .textgrey {
+            color: gray;
+            font-size: 20px;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondsection {
+
+            max-width: 80vw;
+            margin: auto;
+            height: 50vh;
+        }
+
+        .secondsection h1 {
+            font-size: 3rem;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 190vh;
+            height: 2px;
+            margin: 60px 0px;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 114px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 68px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 77px;
+            color: grey;
+            width: 150px;
+            font-size: 12px;
+        }
+
+        .img-top {
+            left: -14px;
+            width: 19px;
+            position: relative;
+            top: -18px;
+        }
+        .footer
+        {
+            position: relative;
+            background-color: aqua;
+            margin: 300px;
+        }
+    
+        
+        
+         
+        </style>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sharib's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="/">Home</a></li>
+                    <li> <a href="/">About</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li> <a href="#project">Project</a> </li>
+                    <li> <a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection"> Hi My Name Is <span class="purple">Mohammad Sharib
+                </span>
+                <div>And I am Passionate </div>
+                <div> <span id="element"> </span></div>
+
+                <div class="buttons"> <input type="button" value="Download Resume" class="btn">
+                    <a class="btn" href="https://github.com/sharibbca" target="_blank">Visit github</a>
+                </div>
+
+
+
+            </div>
+            <div class="rightsection">
+                <img src="wb.png" alt="">
+            </div>
+
+
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="textgrey">What i have done so far</span>
+
+            <h1> Projects</h1>
+            <div class="box" id="project">
+                <div class="vertical">
+                    <img src="code1.png" class="img-top" alt="">
+                    <div class=" vertical-title">Movie ticket website</div>
+                    <div class="vertical-desc">Our movie ticket booking website is designed to provide a seamless and
+                        user-friendly experience for customers looking to purchase
+                        tickets for their favorite movies. The website offers a comprehensive platform that allows users
+                        to browse through the latest movie
+                        releases, check showtimes, select preferred seats, and complete bookings securely and
+                        efficiently
+
+                    </div>
+
+                </div>
+                <div class="vertical"> <img src="code1.png" class="img-top" alt="">
+                    <div class=" vertical-title">Currency converter</div>
+                    <div class="vertical-desc">A currency converter is a tool that converts one currency into another
+                        using real-time exchange rates. It allows users to input an
+                        amount, select source and target currencies, and instantly view the converted value. It's
+                        commonly used for international transactions
+                        and travel.
+
+                    </div>
+                </div>
+                <div class="vertical"> <img src="code1.png" class="img-top" alt="">
+                    <div class=" vertical-title">Portfolio Website</div>
+                    <div class="vertical-desc">This site is crafted using HTML, CSS, and TypeScript, showcasing my
+                        ability to create responsive and visually engaging web designs. Each project highlights my focus
+                        on clean code, modern web standards, and delivering smooth user experiences.
+                    </div>
+                </div>
+                <div class="vertical"> <img src="code1.png" class="img-top" alt="">
+                    <div class=" vertical-title">Bmi Caculator</div>
+                    <div class="vertical-desc">Developed a Body Mass Index (BMI) calculator using React.js to provide
+                        users with a simple and interactive tool to calculate their BMI
+                        based on height and weight inputs. The application features a responsive design, enhancing the
+                        user experience. It demonstrates
+                        proficiency in React components, state management, and event handling
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sharib's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                Contact Us<br>
+                E-mail: thekingsharib789@gmail.com<br>
+                Phone No.: 9896858748
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web deveploper.', 'java developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+    </body>
